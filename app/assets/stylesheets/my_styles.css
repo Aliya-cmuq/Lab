@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	/* Body CSS */
+	font-family: Verdana;
+	font-size:14px;	
+}
+
+h1{
+	/* h1 CSS */
+	font-style: bold;
+	font-size: 180%;
+}
+
+#wrap {
+	width:900px;
+	margin:0 auto;
+	padding:0;
+}
+
+#header {
+	height:160px;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+
+#body {
+	margin:0 15px;
+	padding:15px;
+}
+
+
+#footer {
+	margin:0;
+	padding:10px 15px 5px 15px;
+	text-align:center;
+	font-size: 93%;
+}
+
+#copy {
+	margin: 5px auto;
+	color:black;
+	text-align:center;
+	font-size:85%;
+}
+
+#copy a {
+	color: #666;
+	text-decoration: none;
+}
+
+#copy a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+
+
+/********** MISC TEXT ********/
+
+h1 {
+	 /* SET H1 STYLE HERE */
+}
+
+h2 {
+	color:#000000;
+	font-style:italic;
+	font-size:120%;
+	text-align:center;
+}
+
+label {
+	font-size:95%;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+a:link {
+	color: #666; 
+	text-decoration:none;
+}
+
+a:visited {
+	color:#666; 
+	text-decoration:none;
+}
+
+a:hover {
+	color: #7f7f7f;
+	text-decoration:underline;
+}
+
+
+
+/********** TABLE FORMATTING ********/
+
+.tblborder {
+	border-right-width:0px;
+    border-right-color:black;
+    border-right-style:solid;
+	border-left-width:0px;
+    border-left-color:black;
+    border-left-style:solid;
+	border-top-width:0px;
+    border-top-color:black;
+    border-top-style:solid;
+	border-bottom-width:0px;
+    border-bottom-color:black;
+    border-bottom-style:solid;
+}
+
+.trow {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #666;
+	height: 28px;
+}
+
+.quizrow {
+	vertical-align: top;
+	line-height: 12px;
+}
+
+
+
+
+/********** FROM SCAFFOLDING ********/
+
+.fieldWithErrors {
+  padding: 0px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 260px;
+  border: 2px solid red;
+  padding: 5	px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+

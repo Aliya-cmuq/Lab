@@ -1,5 +1,5 @@
 SimpleQuotes::Application.routes.draw do
-<<<<<<< HEAD
+#<<<<<<< HEAD
   resources :quotes
   match 'home/index' => 'home#index', :as => 'home'
   root :to => 'home#index'

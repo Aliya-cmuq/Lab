@@ -1,5 +1,5 @@
 SimpleQuotes::Application.routes.draw do
-<<<<<<< HEAD
+#<<<<<<< HEAD
   resources :quotes
   match 'home/index' => 'home#index', :as => 'home'
   root :to => 'home#index'
@@ -8,7 +8,7 @@ SimpleQuotes::Application.routes.draw do
 
   get "home/index"
 
->>>>>>> home
+#>>>>>>> home
 $end
   # The priority is based upon order of creation:
   # first created -> highest priority.

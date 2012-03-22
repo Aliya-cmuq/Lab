@@ -4,10 +4,11 @@ SimpleQuotes::Application.routes.draw do
   match 'home/index' => 'home#index', :as => 'home'
   root :to => 'home#index'
   
-=======
-  get "home/index"
+#=======
 
->>>>>>> home
+#  get "home/index"
+
+#>>>>>>> home
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

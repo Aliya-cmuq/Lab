@@ -4,7 +4,7 @@ SimpleQuotes::Application.routes.draw do
   match 'home/index' => 'home#index', :as => 'home'
   root :to => 'home#index'
   
-=======
+#=======
 
   get "home/index"
 
